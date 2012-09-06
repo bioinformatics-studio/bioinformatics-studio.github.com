@@ -26,9 +26,10 @@ a:hover {
 	text-decoration: none; 
 }
 
-a.more { 
-	display: inline-block; 
-	font-weight: 700; 
+a.more {
+	display: inline-block;
+	font-weight: 200;
+	font-size: 12px;
 }
 
 p { 
@@ -61,7 +62,10 @@ cite span {
 	color: #000; 
 }
 
-em { color: #000; }
+em {
+	color: #000;
+	font-style: oblique;
+}
 
 h1, h2, h3, h4, h5, h6 { color: #000; font-weight: normal; }
 h1 { font-size: 40px; margin: 0 0 20px; padding: 5px 0 }
@@ -133,12 +137,18 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 
 #templatemo_header {
 	width: 900px;
-	padding: 30px 40px;
-	background: url(../images/templatemo_header.png) bottom center no-repeat
+	background: url(../images/templatemo_header.png) bottom center no-repeat;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	height: auto;
 }
 
-#site_title { 
-	float: left; 
+#site_title {
+	float: left;
+	height: auto;
+	font-size: 40px;
 }
 
 #site_title h1 { 
@@ -149,7 +159,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #site_title h1 a { 
 	display: block; 
 	width: 191px; 
-	height: 49px; 
+	height: 100px; 
 	color: #fff; 
 	text-indent: -10000px; 
 	background: url(../images/templatemo_logo.png) no-repeat top left; 
@@ -228,11 +238,20 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 .col_w580 { width: 580px }
 .col_w420 { width: 420px }
 .col_w280 { width: 280px }
-.col_allw280 { float: left; width: 420px; margin-right: 30px }
+.col_allw280 {
+	float: left;
+	width: 420px;
+	margin-right: 30px;
+	font-size: 12px;
+}
 .col_w900_last { padding: 0; margin: 0; border: 0 }
 .col_last { margin: 0; border: none }
 
-.fp_service_box img { float: left; margin-right: 15px }
+.fp_service_box img {
+	float: left;
+	margin-right: 15px;
+	font-size: 12px;
+}
 
 .fp_lw_box { clear: both; margin-bottom: 30px }
 .fp_lw_box img { margin-right: 15px; padding-top: 3px }
